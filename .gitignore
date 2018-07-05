@@ -1,23 +1,45 @@
-# Windows thumbnail cache files
+*.orig
+*.opensdf
+*.pdb
 Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+*.obj
+*.exe
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.sln.docstates
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
 
-# Folder config file
-Desktop.ini
+# Build output
+[Bb]in/
+[Oo]bj
+[Dd]ebug*/
+Outputs/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+*.vssscc
+$tf*/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
+# Artifacts of the IDE and build
+*.sln.ide/
+.vs/
+packages/
+*.suo
+*.user
+[Tt]est[Rr]esult*
+OpenCover.Reports/
+.nuget/NuGet.exe
+build/nuget/
+*.log
+results.xml
+project_coverage.xml
